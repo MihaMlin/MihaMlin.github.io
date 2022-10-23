@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Minos</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <script src="addItemToCart.js" async></script>
+    <script src="productGallary.js" async></script>
+</head>
+<body>
+    <!------ header section ------>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">MINOS</a>
+                </div>
+                <nav>
+                    <ul id = "menu-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">Men</a></li>
+                        <li><a href="">Woman</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                <i class="menu-icon fa fa-bars" aria-hidden="true" onclick="menutoggle()"></i>
+            </div>
+        </div>
+    </div>
+
+    <!------ single product detailes ------>
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+
+                <img src="" alt="not available" width="100%" id="product-img" class="item-image">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/products/p1.jfif" alt="not available" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/products/p2.jfif" alt="not available" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/products/p3.jfif" alt="not available" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/products/p4.jfif" alt="not available" width="100%" class="small-img">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2">
+                <p>Home / </p>
+                <h1 class="item-title">not found</h1>
+                <h4 class="item-price">not found</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1" min="1" class="number-of-items">
+                <button type="button" class="btn btn-add-cart">Add to Cart</button>
+                <h3>Product Details <i class="fa fa-indent" aria-hidden="true"></i></h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!------ title ------>
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+    
+
+
+    <!------ products ------>
+
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <a class="product">
+                    <img src="images/products/p1.jfif" alt="not available" class="product-image">
+                    <h4 class="product-name">White hat</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p class="product-price">50.00€</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a class="product">
+                    <img src="images/products/p2.jfif" alt="not available" class="product-image">
+                    <h4 class="product-name">Red hat</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p class="product-price">40.00€</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a class="product">
+                    <img src="images/products/p3.jfif" alt="not available" class="product-image">
+                    <h4 class="product-name">Blue hat</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p class="product-price">35.00€</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a class="product">
+                    <img src="images/products/p4.jfif" alt="not available" class="product-image">
+                    <h4 class="product-name">Black hat</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p class="product-price">45.00€</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!------ footer ------>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="app-logo">
+                        <img src="images/app-logos/al1.svg" alt="not available">
+                        <img src="images/app-logos/al2.png" alt="not available">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logos/l5.png" alt="not available">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Usefull Links</h3>
+                    <ul>
+                        <li>Coupon</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Snapchat</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Minos</p>
+        </div>
+    </div>
+</body>
+</html>
